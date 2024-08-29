@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        #main{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        h2{
+            font-size:20px;
+        }
+
+        p{
+            font-size: 10px;
+        }
+        #container{
+            display: grid;
+            width: 1200px;
+            height: 600px;
+            padding: 10px;
+        }
+
+        #outfirst{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr 1fr;
+            background-color:burlywood;
+        
+        }
+
+        #outfirst > div{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 15px;
+            border: 3px dashed black;
+        }
+
+
+        #first{
+            grid-column: span 5;
+            background-color: black;
+            color:burlywood;
+        }
+
+        #second{
+            grid-column: span 4;
+        }
+
+        #third{
+            grid-row: span 3;
+            background-color: brown;
+            color: white;
+        }
+
+        #fourth{
+            grid-column: span 2;
+        }
+
+        #fifth{
+            grid-column: span 2;
+        }
+
+        #outsecond{
+            display: grid;
+            grid-template-columns: 3fr 1fr 1fr;
+            background-color:burlywood;
+        }
+
+        #outsecond > div{
+            border-radius: 10px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 10PX;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="outfirst">
+    
+    
+                <div id="first"><div id="express"><h1>PANDHARPUR EXPRESS</div></h1></div>
+    
+    
+                <div id="second">
+                    <p><b>Passenger </b></p>
+                    <h2>Rohit Dhoni</h2>
+                </div>
+    
+    
+                <div id="third">
+                <p style="font-size: 40px; text-align:center"><b>DEPART FROM PLATFORM </b></p>
+                <h2 style="font-size: 60px;">9</h2></div>
+    
+    
+                <div id="fourth">
+                    <p><b>DEPART</b></p>
+                    <h2>KING'S CROSS</h2>
+                </div>
+    
+    
+                <div id="fifth">
+                    <p><b>ARRIVE</b></p>
+                    <h2>HOGSMEADE</h2>
+                </div>
+    
+    
+                <div id="sixth">
+                    <p><b>DATE</b></p>
+                    <h2>11 AUGUST 2024</h2>
+                </div>
+    
+    
+                <div id="seventh">
+                    <p><b>TIME</b></p>
+                    <h2>11.30 PM</h2>
+                </div>
+    
+    
+                <div id="Eight">
+                    <p><b>CAR</b></p>
+                    <h2>4</h2>
+                </div>
+    
+    
+                <div id="Nine">
+                    <p><b>SEAT</b></p>
+                    <h2>6B</h2>
+                </div>
+            </div>
+    
+    
+            <div id="outsecond">
+                <div id="description"><h3>BOARDING BEGINS 30 MINUTES BEFORE DEPARTURE . SNACKS AVAILABLE FOR PURCHASE FROM THE HONEYDUKES EXPRESS.</h3>
+                <hr>
+                <h3>This ticket is non refundable Hogwarts railway authority</h3></div>
+                <div id="image">
+                    <img style="padding: 20px; height:75px" src="https://tse3.mm.bing.net/th?id=OIP.LFO2aG0z0rmm9zWPYdJXCAHaHa&pid=Api&P=0&h=180" alt="">
+                </div>
+                <div id="barcode">
+                    <img style="padding: 20px; height:75px" src="https://tse1.mm.bing.net/th?id=OIP.E4Cznox5IvyHUJsNwkROqwHaEq&pid=Api&P=0&h=180" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
